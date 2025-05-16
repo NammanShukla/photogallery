@@ -40,7 +40,7 @@ header{
 .modal { 
     display: none; 
     position: fixed; 
-    z-index: 1; 
+    z-index: 100; 
     left: 0; 
     top: 0; 
     width: 100%;
@@ -73,4 +73,54 @@ header{
 
 .close:hover {
     color: #ddd; 
+}
+
+/************** Styles for Carousel ***********************/
+
+
+.carousel-container {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden ;
+    position: relative;
+}
+
+.carousel{
+    display: flex;
+    transition: transform 0.4s ease;
+    gap: 10px; 
+}
+
+.carousel img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer; 
+    transition: transform 0.2s ease; 
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.prev {
+    left:0;
+}
+
+.next {
+    right:0; 
 }
