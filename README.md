@@ -8,3 +8,5 @@ For the images, I can either collect images online and toss them in an /asset fo
 The latter might be above the current task but cool nonetheless.
 
 Note : After recalling the transcript of the call with Ms.Jyoti, I was able to remember the usage of picsum which doesnt complicate things at all rather helps me by giving me a third option (thank you Ms.Jyoti!), and I also recall the image limit to be 12 images from the same call which gives me more params. 
+
+
