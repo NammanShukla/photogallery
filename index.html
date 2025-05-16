@@ -12,26 +12,18 @@
             <h1>A Very Random Photo Gallery</h1>
         </header>
 
-        <div class="gallery-box">
-            <img src="https://picsum.photos/1000/800?random=1" alt="RanImg1" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=2" alt="RanImg2" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=3" alt="RanImg3" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=4" alt="RanImg4" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=5" alt="RanImg5" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=6" alt="RanImg6" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=7" alt="RanImg7" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=8" alt="RanImg8" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=9" alt="RanImg9" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=10" alt="RanImg10" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=11" alt="RanImg11" onclick="openModal(this)">
-            <img src="https://picsum.photos/1000/800?random=12" alt="RanImg12" onclick="openModal(this)">
+        <div class="carousel-container">
+            <div class="carousel">
             </div>
+            <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
 
         <div id="modal" class="modal" onclick="closeModal()">
             <span class="close">&times;</span>
             <img class="modal-content" id="modalImg">
         </div>
 
-        <script src="modal.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
